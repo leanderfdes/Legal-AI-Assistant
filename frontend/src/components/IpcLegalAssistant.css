@@ -1,0 +1,145 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Dark Mode */
+  .dark-mode {
+    background-color: #050505;
+    color: white;
+  }
+  
+  /* Container */
+  .container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    
+  }
+  
+  /* Toggle Button */
+  .toggle-button {
+    margin-bottom: 15px;
+    padding: 10px 15px;
+    background: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
+  .toggle-button:hover {
+    background: #0056b3;
+  }
+  
+  /* Card */
+  .card {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 95%;
+    
+    text-align: center;
+  }
+  
+  /* Title */
+  .title {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  /* Input Field */
+  .input {
+    width: 98.5%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  /* Search Button */
+  .search-button {
+    width: 10%;
+    padding: 10px;
+    background: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
+  .search-button:hover {
+    background: #218838;
+  }
+  
+  /* Sections */
+  .section-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  /* List */
+  .list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  /* List Items */
+  .list-item {
+    background: #374655;
+    padding: 10px;
+    border-radius: 0px;
+    margin-bottom: 0px;
+  }
+  
+  /* Case Link */
+  .case-link {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .case-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Case Summary */
+  .case-summary {
+    font-size: 14px;
+    color: #dcdbdb;
+  }
+  
+  /* Dark Mode Styles */
+  .dark-mode .card {
+    background: #333;
+  }
+  
+  .dark-mode .list-item {
+    background: #444;
+    color: white;
+  }
+  
+  .dark-mode .case-link {
+    color: #66b3ff;
+  }
+  
+  .dark-mode .search-button {
+    background: #218838;
+  }
+  
+  .dark-mode .search-button:hover {
+    background: #1a682e;
+  }
+  
