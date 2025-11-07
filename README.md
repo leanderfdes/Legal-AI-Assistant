@@ -1,20 +1,34 @@
 # ⚖️ AI-Powered Legal Decision Support System  
 
-> 🧠 An advanced AI-driven system that predicts relevant IPC sections, estimates punishments, and retrieves similar past cases — helping law enforcement and judicial professionals make accurate, data-driven decisions.  
+> 🧠 *Empowering justice through Artificial Intelligence.*  
+> A cutting-edge AI system that predicts relevant IPC sections, estimates punishments, and retrieves similar past cases — enabling law enforcement officers, legal professionals, and judges to make informed, data-driven decisions with speed and accuracy.  
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)
 ![Flask](https://img.shields.io/badge/Flask-Backend-black?logo=flask)
 ![React](https://img.shields.io/badge/React-Frontend-61DAFB?logo=react)
 ![NLP](https://img.shields.io/badge/NLP-AI%20Driven-orange)
 ![License](https://img.shields.io/badge/License-MIT-green)
+![Build](https://img.shields.io/badge/Build-Stable-brightgreen)
+![Contributions](https://img.shields.io/badge/Contributions-Welcome-blue)
 
 ---
 
 ## 🚀 Overview  
 
-The **AI-Powered Legal Decision Support System** integrates Artificial Intelligence into India’s legal ecosystem.  
-It predicts applicable **Indian Penal Code (IPC)** sections, suggests corresponding punishments, and retrieves **semantically similar past cases**.  
-Built with modern AI tools like **SentenceTransformer**, **ChromaDB**, and **Gemini API**, it provides faster and more accurate legal analysis.
+The **AI-Powered Legal Decision Support System** leverages Artificial Intelligence to revolutionize India’s criminal justice process.  
+It analyzes crime descriptions to predict applicable **Indian Penal Code (IPC)** sections, recommend **appropriate punishments**, and retrieve **semantically similar past cases**.  
+
+By integrating **SentenceTransformer**, **ChromaDB**, and **Google’s Gemini API**, the system bridges the gap between unstructured legal text and actionable insights — ensuring faster, fairer, and more consistent judicial outcomes.  
+
+---
+
+## 🧠 Core Objectives  
+
+- ⚖️ Automate **IPC section classification** using advanced NLP.  
+- 🔍 Estimate **appropriate punishments** aligned with legal precedents.  
+- 📚 Retrieve **relevant historical cases** for judicial reference.  
+- 🚔 Assist **law enforcement** in accurate and efficient FIR filing.  
+- 👩‍⚖️ Support **judges and legal analysts** in data-driven decision-making.  
 
 ---
 
@@ -26,23 +40,25 @@ Built with modern AI tools like **SentenceTransformer**, **ChromaDB**, and **Gem
 | **Backend** | Flask (Python) |
 | **AI / NLP** | SentenceTransformer, NLTK, Scikit-learn |
 | **Database** | ChromaDB (Vector Database) |
-| **APIs** | Google Gemini API |
+| **API & Integration** | Google Gemini API |
 | **Utilities** | Pandas, NumPy, PyPDF2 |
 | **Version Control** | Git & GitHub |
 
 ---
 
-## ⚙️ Features  
+## 🌟 Key Features  
 
-- 🔍 **IPC Section Prediction** – Automatically identifies applicable IPC sections from crime descriptions.  
-- ⚖️ **Punishment Estimation** – Suggests punishments aligned with legal precedents.  
-- 📚 **Case Retrieval** – Finds and displays similar past cases using semantic search.  
-- 💬 **AI Summarization** – Provides concise summaries via **Gemini API**.  
-- 🧠 **Context-Aware Classification** – Handles first-person, third-person, and mixed legal narratives.  
+- 🔍 **IPC Section Prediction** – Identifies relevant IPC sections from textual descriptions.  
+- ⚖️ **Punishment Estimation** – Suggests punishment ranges based on past judicial data.  
+- 📚 **Case Retrieval** – Retrieves and ranks similar past cases using semantic search.  
+- 💬 **AI Summarization** – Generates concise summaries of retrieved legal cases via **Gemini API**.  
+- 🧠 **Context-Aware NLP** – Handles first-person, third-person, and mixed legal narratives for robust prediction.  
+- 📈 **Performance Optimized** – Achieved up to **77.63% accuracy** in IPC classification tasks.  
 
 ---
 
 ## 🧱 System Architecture  
+  
 
 Crime Description
 ↓
