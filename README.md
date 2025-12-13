@@ -59,7 +59,7 @@ By integrating **SentenceTransformer**, **ChromaDB**, and **Google’s Gemini AP
 
 ## 🧱 System Architecture  
   
-
+```bash
 Crime Description
 ↓
 SentenceTransformer → Text Embeddings
@@ -71,7 +71,7 @@ Prediction Model → IPC Sections + Punishments
 Gemini API → Case Summaries
 ↓
 Frontend UI → Interactive Results Display
-
+```
 ---
 
 ## 💻 Installation  
